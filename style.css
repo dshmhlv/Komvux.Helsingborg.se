@@ -31,4 +31,149 @@ html, body{
     margin-top: 10px;
 
 }
+
+
+.container {
+    width: 1250px;
+    height: 375px;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    margin-left:auto;
+    /*  box-shadow is from materialize css's website */
+    box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+    0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+}
+
+.container img {
+    width: 100%;
+}
+
+button {
+    height: 10%;
+    border: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.5);
     
+    cursor: pointer;
+    padding: 1em;
+    display: flex;
+    
+}
+
+button .arrow {
+    border: solid #fff;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 10px;
+    transition: transform 0.3s ease-out;
+    outline: none;
+}
+
+#right-btn {
+    margin: auto 0 auto -2em;
+}
+
+#right-btn .arrow {
+    transform: rotate(-45deg);
+}
+
+#left-btn {
+    z-index: 0;
+    margin: auto -2em auto 0;
+}
+
+#left-btn .arrow {
+    transform: rotate(135deg);
+}
+
+
+#listen{
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 25px;
+    padding:60px;
+}
+
+.listenLink{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 200;
+    color: #464646;
+    text-align: 50px;
+    margin-right: 10%;
+    
+}
+
+#skrivUt{
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 25px;
+    padding:60px;
+}
+
+.skrivUtLink{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 200;
+    color: #464646;
+}
+
+
+
+.infoKomvux h1{
+    color: #005c86;
+    font-size: 2.2rem;
+    padding: 60px;
+    margin: 20px;
+}
+.infoKomvux p{
+    color:black;
+    font-size: 1.5em;
+    margin-top: 16px;
+    max-width: 700px;
+    font-weight: 700;
+    padding:60px;
+}
+
+
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+    .div4 { grid-area: 2 / 2 / 3 / 3; }
+    .div5 { grid-area: 3 / 1 / 4 / 2; }
+    .div6 { grid-area: 3 / 2 / 4 / 3; }
+    .div7 { grid-area: 4 / 1 / 5 / 2; }
+    .div8 { grid-area: 4 / 2 / 5 / 3; }
+
+    .infoBox img{
+        
+        display: block;
+        margin: auto;
+        height:100%;
+    }
+    .infoBox{
+        width:500px;
+    }
+    .info-box-content{
+        background-color: #005c86;
+        color:#fff;
+        
+    }
+
+    .info-box-content h5,p{
+        margin: 0;
+        padding: 0;
+    }

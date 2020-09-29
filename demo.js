@@ -3,7 +3,7 @@ const rightBtn = document.getElementById('right-btn');
 const leftBtn = document.getElementById('left-btn');
 
 
-let pictures = ['https://komvux.helsingborg.se/wp-content/uploads/sites/130/2017/05/slider-komvux-helsingborg-3-1800x350.jpg','https://komvux.helsingborg.se/wp-content/uploads/sites/130/2017/05/slider-komvux-helsingborg-2-1800x350.jpg','https://komvux.helsingborg.se/wp-content/uploads/sites/130/2017/05/slider-komvux-helsingborg-1-1800x350.jpg' ];
+let pictures = ['komvux1.jpg','komvux 2.jpg','komvux3.jpg'];
 
 img.src = pictures[0];
 let position = 0;
